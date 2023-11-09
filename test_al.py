@@ -12,10 +12,10 @@ matriz_B = AL.PedirMatriz(filas, columnas)
 
 resultado_suma = AL.SumaMatrices(matriz_A, matriz_B)
 resultado_resta = AL.RestaMatrices(matriz_A, matriz_B)
-resultado_escalar = AL.ProductoEscalar(escalar, matriz_A)
 resultado_determinante = AL.Determinante(matriz_A, filas, columnas)
+resultado_escalar = AL.ProductoEscalar(escalar, matriz_A)
 
 print(resultado_suma)
 print("\n", resultado_resta)
-print("\n", resultado_escalar)
 print("\n", resultado_determinante)
+print("\n", resultado_escalar)

@@ -13,15 +13,14 @@ def PedirMatriz(filas, columnas):
 
 def Determinante(matriz, filas, columnas):
     if filas == columnas:
-        determinante = np.linalg.det(matriz)
-        determinante = np.array(determinante)
-        return determinante
+        return np.linalg.det(matriz)
     else:
         return print("Solo se pueden obtener determinantes de matrices cuadradas")
 
 def ProductoEscalar(escalar, matriz):
-    matriz *= escalar
-    matriz_escalar = np.array(matriz) 
+    matriz2 = matriz[:]
+    matriz2 *= escalar
+    matriz_escalar = np.array(matriz2) 
     return matriz_escalar
 
 def SumaMatrices(matriz1, matriz2):
