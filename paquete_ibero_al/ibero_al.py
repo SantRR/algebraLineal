@@ -11,10 +11,13 @@ def PedirMatriz(filas, columnas):
     matriz_np = np.array(matriz)   
     return matriz_np
 
-def Determinante(matriz):
-    determinante = np.linalg.det(matriz)
-    determinante = np.array(determinante)
-    return determinante
+def Determinante(matriz, filas, columnas):
+    if filas == columnas:
+        determinante = np.linalg.det(matriz)
+        determinante = np.array(determinante)
+        return determinante
+    else:
+        return print("Solo se pueden obtener determinantes de matrices cuadradas")
 
 def ProductoEscalar(escalar, matriz):
     matriz *= escalar
