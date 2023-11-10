@@ -1,3 +1,14 @@
+Metadata-Version: 2.1
+Name: paquete-ibero-al-SRR-EIGO
+Version: 0.0.1
+Summary: Librería para realizar funciones simple de álgebra lineal
+Home-page: https://github.com/0mudkip/repo_paquete_ibero_al
+Author: Santiago Romo Rubio, Edgar Iván Gálvez Ortega
+Author-email: 192172-7@iberoleon.edu.mx, 180235-A@iberoleon.edu.mx
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
 # algebraLineal
 
 Librería que te permite utilizar funciones básicas de álgebra lineal
