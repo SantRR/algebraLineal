@@ -1,9 +1,0 @@
-README.md
-setup.py
-paquete_ibero_al_SRR_EIGO/__init__.py
-paquete_ibero_al_SRR_EIGO/ibero_al.py
-paquete_ibero_al_SRR_EIGO.egg-info/PKG-INFO
-paquete_ibero_al_SRR_EIGO.egg-info/SOURCES.txt
-paquete_ibero_al_SRR_EIGO.egg-info/dependency_links.txt
-paquete_ibero_al_SRR_EIGO.egg-info/requires.txt
-paquete_ibero_al_SRR_EIGO.egg-info/top_level.txt
